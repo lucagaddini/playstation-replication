@@ -1,0 +1,23 @@
+
+.btn_standard:hover{
+  color: white;
+  border: 2px solid white;
+  box-shadow: #007ad0 0px 0px 0px 3px
+}
+
+.btn_standard.btn_red:hover{
+  color: white;
+  border: 2px solid black;
+  box-shadow: #cd3d10 0px 0px 0px 3px
+}
+
+.btn_standard.btn_dark:hover{
+  color: white;
+  border: 2px solid white;
+  box-shadow: #363636 0px 0px 0px 3px
+}
+
+.thumb_games_item_box:hover{
+  transition: 2s;
+  transform: translateY(-20px);
+}
