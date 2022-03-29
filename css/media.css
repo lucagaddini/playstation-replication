@@ -2,17 +2,25 @@
 /* Extra Small */
 @media screen and (max-width:575px) {
   /* Jumbotron */
-  .jumbotron_content_box img{
-    width: 60%;
-  }
-  
   .jumbotron_content_box{
     width: 100%;
   }
+  .jumbotron_content_box img{
+    width: 60%;
+  }
   /* /Jumbotron */
 
+  /* Banner Main */
+  .banner_middle_content_box{
+    width: 100%;
+  }
+  .banner_middle_content_box img{
+    width: 60%;
+  }
+  /* /Banner Jumbotron */
+
   /* Footer */
-  
+
 
 }
 
@@ -26,6 +34,15 @@
     width: 60%;
   }
   /* /Jumbotron */
+
+  /* Banner Main */
+  .banner_middle_content_box{
+    width: 100%;
+  }
+  .banner_middle_content_box img{
+    width: 60%;
+  }
+  /* /Banner Jumbotron */
 
 }
 
@@ -41,6 +58,15 @@
     width: 55%;
   }
   /* /Jumbotron */
+
+  /* Banner Main */
+  .banner_middle_content_box{
+    width: 100%;
+  }
+  .banner_middle_content_box img{
+    width: 55%;
+  }
+  /* /Banner Jumbotron */
 
 }
 
