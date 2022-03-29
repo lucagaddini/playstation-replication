@@ -1,0 +1,70 @@
+
+
+/* 
+    GENERAL 
+*/
+
+.btn_standard{
+  border-radius: 25px;
+  color: white;
+  background-color: #2c64e4;
+  border: 1px solid #2c64e4;
+}
+
+
+
+/* 
+    /GENERAL 
+*/
+
+
+
+/* 
+    HEADER 
+*/
+
+.btn_standard.btn_dark{
+  background-color: #363636;
+  border: 1px solid #363636;
+}
+
+.navbar_ps .fa-chevron-down{
+  height: 12px;
+}
+
+.navbar_ps li:hover .nav-link{
+  color: #2c64e4 !important
+}
+
+.navbar_ps li:hover .fa-chevron-down{
+  fill: #2c64e4;
+}
+
+/* 
+    /HEADER 
+*/
+
+/* 
+    JUMBOTRON 
+*/
+
+/* 
+    /JUMBOTRON 
+*/
+
+/* 
+    MAIN 
+*/
+
+/* 
+    /MAIN 
+*/
+
+
+/* 
+    FOOTER 
+*/
+
+/* 
+    /FOOTER 
+*/
