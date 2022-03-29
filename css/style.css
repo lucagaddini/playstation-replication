@@ -145,10 +145,12 @@ footer .col_left svg{
 
 footer .col_right .ul_custom{
     padding-left: 0;
+    margin-bottom: 0;
 }
 
 footer .col_right ul li{
   list-style: none;
+  padding: 5px 0;
 }
 
 #sie_img{

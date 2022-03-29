@@ -1,7 +1,7 @@
 
 /* Extra Small */
 @media screen and (max-width:575px) {
-  
+  /* Jumbotron */
   .jumbotron_content_box img{
     width: 60%;
   }
@@ -9,24 +9,30 @@
   .jumbotron_content_box{
     width: 100%;
   }
+  /* /Jumbotron */
+
+  /* Footer */
+  
 
 }
 
 /* Small */
 @media screen and (min-width:576px) and (max-width:767px) {
-  
+  /* Jumbotron */
   .jumbotron_content_box{
     width: 100%;
   }
   .jumbotron_content_box img{
     width: 60%;
   }
+  /* /Jumbotron */
 
 }
 
 /* Medium */
 @media screen and (min-width:768px) and (max-width:991px) {
 
+  /* Jumbotron */
   .jumbotron_content_box{
     width: 100%;
   }
@@ -34,6 +40,7 @@
   .jumbotron_content_box img{
     width: 55%;
   }
+  /* /Jumbotron */
 
 }
 
