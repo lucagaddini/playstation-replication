@@ -132,7 +132,10 @@
 
 /* Console and Accessories box */
 
-.console_box_title{
+.console_box_title,
+.ps4_box_title,
+.psvr_box_title,
+.accessories_box_title{
   padding: 25px 10px;
 }
 .console_box_title .console_box_surtitle{
@@ -147,7 +150,10 @@
   padding-bottom: 10px;
 }
 
-.console_box_title .console_box_subtitle{
+.console_box_title .console_box_subtitle,
+.ps4_box_title .ps4_box_subtitle,
+.psvr_box_title .psvr_box_subtitle,
+.accessories_box_title .accessories_box_subtitle{
   color: grey;
   font-size: 1.2rem;
 }
@@ -214,10 +220,19 @@
   border-radius: 20px;
 }
 
-
-
 /* /New Arrives box */
 
+
+/* PS4 Box */
+
+.ps4_box_title img,
+.psvr_box_title img,
+.accessories_box_title img{
+  width: 100%;
+  height: 100%;
+}
+
+/* /PS4 Box */
 
 
 /* 
