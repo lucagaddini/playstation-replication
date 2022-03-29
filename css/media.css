@@ -1,0 +1,50 @@
+
+/* Extra Small */
+@media screen and (max-width:575px) {
+  
+  .jumbotron_content_box img{
+    width: 60%;
+  }
+  
+  .jumbotron_content_box{
+    width: 100%;
+  }
+
+}
+
+/* Small */
+@media screen and (min-width:576px) and (max-width:767px) {
+  
+  .jumbotron_content_box{
+    width: 100%;
+  }
+  .jumbotron_content_box img{
+    width: 60%;
+  }
+
+}
+
+/* Medium */
+@media screen and (min-width:768px) and (max-width:991px) {
+
+  .jumbotron_content_box{
+    width: 100%;
+  }
+
+  .jumbotron_content_box img{
+    width: 55%;
+  }
+
+}
+
+/* Large */
+@media screen and (min-width:992px) {
+
+  
+
+}
+
+
+
+
+
