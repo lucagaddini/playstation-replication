@@ -74,6 +74,7 @@
 .jumbotron{
   width: 100%;
   height: 600px;
+  padding: 20px 0;
   background-image: url("../img/jumbo-bg.png");
   background-position: center;
   background-size: cover;
@@ -107,6 +108,7 @@
     MAIN 
 */
 
+/* Thumb videogames box */
 
 .thumb_games_top_box{
   background-color: white;
@@ -124,11 +126,37 @@
   width: 100%;
   height: 100%;
   border-radius: 20px;
-
 }
 
+/* /Thumb videogames box */
+
+/* Console and Accessories box */
+
+.console_box_title{
+  padding: 25px 10px;
+}
+.console_box_title .console_box_surtitle{
+  color: #82aade;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+.console_box_title h2{
+  font-size: 2.2rem;
+  margin-top: 0px;
+  padding-bottom: 10px;
+}
+
+.console_box_title .console_box_subtitle{
+  color: grey;
+  font-size: 1.2rem;
+}
+
+/* /Console and Accessories box */
 
 
+
+/* Banner main */
 
 .banner_middle{
   width: 100%;
@@ -158,6 +186,38 @@
 .banner_middle_content_box p{
   font-size: 1.2rem;
 }
+
+/* /Banner main */
+
+/* New Arrives box */
+
+.new_arrives_box{
+  width: 100%;
+  height: 100%;
+  padding: 20px 35px;
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.new_arrives_box_top{
+  padding: 20px 0;
+}
+
+.new_arrives_item_box{
+  width: 100%;
+  height: 100%;
+}
+
+.new_arrives_item_box img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+
+
+/* /New Arrives box */
+
 
 
 /* 
