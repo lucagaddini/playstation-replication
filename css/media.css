@@ -53,12 +53,9 @@
   }
   /* /Banner Main */
 
-  /* .console_box_title h2,
-  .ps5_box_title h2,
-  .console_item_box_title h2,
-  .sales_box_title h2{
-    font-size: 1.6rem;
-  } */
+  .dropdown_submenu_ps {
+  width: calc(100vw - 25px) !important;
+  }
 
 
 }

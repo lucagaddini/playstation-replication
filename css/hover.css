@@ -24,7 +24,7 @@
 
 .thumb_games_item_box:hover{
   transition: 2s;
-  transform: translateY(-20px);
+  transform: translateY(-15px);
 }
 
 #btn_ps_plus:hover{
@@ -37,4 +37,14 @@
 #btn_ps_now:hover{
   border: 2px solid #161c3c;
   box-shadow: #f5f5f5 0px 0px 0px 3px;
+}
+
+
+.dropdown_submenu_ps .submenu_item:hover{
+  border: 1px solid lightgrey;
+  box-shadow: grey 0px 0px 5px 5px;
+}
+
+.accessories_box_item:hover{
+  opacity: 1;
 }

@@ -40,6 +40,10 @@
     HEADER 
 */
 
+/* header{
+  overflow-x: hidden;
+} */
+
 .navbar_sony{
   height: 50px;
   width: 100%;
@@ -58,9 +62,9 @@
   right: 10px;
 }
 
-.navbar_ps .fa-chevron-down{
-  height: 12px;
-}
+/* .navbar_ps{
+  padding: 15px 0;
+} */
 
 .navbar_ps li:hover .nav-link{
   color: #2c64e4 !important
@@ -69,6 +73,49 @@
 .navbar_ps li:hover .fa-chevron-down{
   fill: #2c64e4;
 }
+
+
+.dropdown_submenu_ps {
+  left:-80px !important;
+  top: 3.5rem !important;
+  width: calc(100vw + 3px) !important;
+	color: #212529;
+	text-align: center;
+  background-color: #ffffff;
+	background-clip: padding-box;
+	border: none;
+	border-radius: 0;
+  overflow: hidden;
+}
+
+.dropdown_submenu_ps ul li{
+  list-style: none;
+  padding: 0 10px;
+}
+
+.dropdown_submenu_ps .submenu_bottom ul li::before{
+    content: "•";
+    padding-right: 6px;
+    color: #0972d2;
+  }
+
+  .dropdown_submenu_ps a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .dropdown_submenu_ps .submenu_top,
+  .dropdown_submenu_ps .submenu_bottom{
+    padding: 15px 0;
+  }
+
+  .dropdown_submenu_ps .submenu_item:hover{
+    border: 1px solid lightgrey;
+    box-shadow: grey 0px 0px 5px 5px;
+    
+  }
+
+
 
 /* 
     /HEADER 
@@ -121,7 +168,7 @@
   background-color: white;
   width: 100%;
   height: 100%;
-  padding: 20px 35px;
+  padding: 25px 35px;
 }
 
 .thumb_games_item_box{
@@ -198,6 +245,28 @@
   color: #82aade;
   text-transform: uppercase;
   font-size: 10px;
+}
+
+.accessories_box_item{
+  opacity: 0.5;
+  padding: 15px 0;
+}
+
+.accessories_box_item.item_active{
+  opacity: 1;
+}
+
+.accessories_col.col_active:after{
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #2082d2;
+}
+
+.accessories_box_item_top img{
+  width: 100%;
+  height: 100%;
 }
 
 /* /Console and Accessories section */
