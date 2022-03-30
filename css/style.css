@@ -115,7 +115,7 @@
     MAIN 
 */
 
-/* Thumb videogames box */
+/* Thumb videogames section */
 
 .thumb_games_top_box{
   background-color: white;
@@ -141,23 +141,23 @@
   height: 100%;
 }
 
-
-
-/* /Thumb videogames box */
+/* /Thumb videogames section */
 
 
 /* General - Box with Top and 3 column */
 
 .ps5_box,
 .console_box,
-.sales_box{
-  padding: 30px 0;
+.sales_box,
+.social_box{
+  padding: 35px 0;
 }
 
 .ps5_box_title,
 .console_box_title,
 .console_item_box_title,
-.sales_box_title{
+.sales_box_title,
+.social_box_title{
   padding: 10px 10px;
 }
 
@@ -181,7 +181,8 @@
 .console_box_title h2,
 .ps5_box_title h2,
 .console_item_box_title h2,
-.sales_box_title h2{
+.sales_box_title h2,
+.social_box_title h2{
   font-size: 2.2rem;
   margin-top: 0px;
   padding-bottom: 10px;
@@ -191,7 +192,7 @@
 
 
 
-/* Console and Accessories box */
+/* Console and Accessories section */
 
 .ps5_box_title .ps5_box_surtitle{
   color: #82aade;
@@ -199,7 +200,7 @@
   font-size: 10px;
 }
 
-/* /Console and Accessories box */
+/* /Console and Accessories section */
 
 
 
@@ -236,7 +237,7 @@
 
 /* /Banner main */
 
-/* New Arrives box */
+/* New Arrives section */
 
 .new_arrives_box{
   width: 100%;
@@ -270,10 +271,10 @@
   padding: 10px 0;
 }
 
-/* /New Arrives box */
+/* /New Arrives section */
 
 
-/* PS Plus Box */
+/* PS Plus section */
 
 .ps_plus_banner{
   width: 100%;
@@ -307,10 +308,10 @@
 }
 
 
-/* /PS Plus Box */
+/* /PS Plus section */
 
 
-/* PS Now Box */
+/* PS Now section */
 
 .ps_now_banner{
   width: 100%;
@@ -343,7 +344,17 @@
 }
 
 
-/* /PS Now Box */
+/* /PS Now section */
+
+
+/* Social Media section */
+
+.social_box .item_box img{
+  width: 100%;
+  height: 100%;
+}
+
+/* /Social Media section */
 
 
 /* 
