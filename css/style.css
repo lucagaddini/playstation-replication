@@ -88,6 +88,10 @@
   overflow: hidden;
 }
 
+.dropdown_submenu_ps .submenu_item{
+  border: 1px solid white
+}
+
 .dropdown_submenu_ps ul li{
   list-style: none;
   padding: 0 10px;

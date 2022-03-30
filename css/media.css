@@ -31,6 +31,10 @@
     font-size: 1.4rem;
   } */
 
+  .dropdown_submenu_ps {
+    width: 96vw !important;
+  }
+
 }
 
 /* Small */
@@ -54,7 +58,7 @@
   /* /Banner Main */
 
   .dropdown_submenu_ps {
-  width: calc(100vw - 25px) !important;
+  width: 96vw !important;
   }
 
 
@@ -88,6 +92,9 @@
     height: 100%;
   }
 
+  .dropdown_submenu_ps {
+    width: 97vw !important;
+  }
 }
 
 /* Large */
