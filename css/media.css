@@ -17,10 +17,19 @@
   .banner_middle_content_box img{
     width: 60%;
   }
-  /* /Banner Jumbotron */
+  /* /Banner Main */
 
-  /* Footer */
+/* 
+  .console_box_title h2,
+  .ps5_box_title h2,
+  .console_item_box_title h2,
+  .sales_box_title h2{
+    font-size: 1.6rem;
+  }
 
+  .ps5_box_title h3{
+    font-size: 1.4rem;
+  } */
 
 }
 
@@ -42,7 +51,15 @@
   .banner_middle_content_box img{
     width: 60%;
   }
-  /* /Banner Jumbotron */
+  /* /Banner Main */
+
+  /* .console_box_title h2,
+  .ps5_box_title h2,
+  .console_item_box_title h2,
+  .sales_box_title h2{
+    font-size: 1.6rem;
+  } */
+
 
 }
 
@@ -66,7 +83,13 @@
   .banner_middle_content_box img{
     width: 55%;
   }
-  /* /Banner Jumbotron */
+  /* /Banner Main */
+
+  /* PS Plus Banner */
+  .ps_plus_image_box img{
+    width: 120%;
+    height: 100%;
+  }
 
 }
 

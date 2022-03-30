@@ -26,7 +26,6 @@
   border: 2px solid #f5f5f5;
 }
 
-
 .txt_blue{
   color: #3569e6;
 }
@@ -146,42 +145,58 @@
 
 /* /Thumb videogames box */
 
-/* Console and Accessories box */
 
-.console_box_title,
+/* General - Box with Top and 3 column */
+
+.ps5_box,
+.console_box,
+.sales_box{
+  padding: 30px 0;
+}
+
 .ps5_box_title,
-.ps4_box_title,
-.psvr_box_title,
-.accessories_box_title{
-  padding: 25px 10px;
-}
-.console_box_title .console_box_surtitle{
-  color: #82aade;
-  text-transform: uppercase;
-  font-size: 10px;
+.console_box_title,
+.console_item_box_title,
+.sales_box_title{
+  padding: 10px 10px;
 }
 
-.console_box_title h2{
+
+.ps5_box_image img,
+.console_item_box_title img,
+.sales_box .item_box img{
+  width: 100%;
+  height: 100%;
+}
+
+/* .console_box_title .console_box_subtitle, */
+.ps5_box_title .ps5_box_subtitle,
+.console_box_title .console_box_subtitle,
+.console_item_box_title .console_item_box_subtitle,
+.sales_box_title .sales_box_subtitle{
+  color: grey;
+  font-size: 1.2rem;
+}
+
+.console_box_title h2,
+.ps5_box_title h2,
+.console_item_box_title h2,
+.sales_box_title h2{
   font-size: 2.2rem;
   margin-top: 0px;
   padding-bottom: 10px;
 }
 
-.ps5_box_image img,
-.ps4_box_title img,
-.psvr_box_title img,
-.accessories_box_title img{
-  width: 100%;
-  height: 100%;
-}
+/* /General - Box with Top and 3 column */
 
-.console_box_title .console_box_subtitle,
-.ps5_box_title .ps5_box_subtitle,
-.ps4_box_title .ps4_box_subtitle,
-.psvr_box_title .psvr_box_subtitle,
-.accessories_box_title .accessories_box_subtitle{
-  color: grey;
-  font-size: 1.2rem;
+
+
+/* Console and Accessories box */
+
+.ps5_box_title .ps5_box_surtitle{
+  color: #82aade;
+  text-transform: uppercase;
+  font-size: 10px;
 }
 
 /* /Console and Accessories box */
@@ -231,6 +246,11 @@
   color: white;
 }
 
+.new_arrives_box a{
+  text-decoration: none;
+  color: white;
+}
+
 .new_arrives_box_top{
   padding: 20px 0;
 }
@@ -246,6 +266,10 @@
   border-radius: 20px;
 }
 
+.new_arrives_item_box span{
+  padding: 10px 0;
+}
+
 /* /New Arrives box */
 
 
@@ -255,17 +279,19 @@
   width: 100%;
   height: auto;
   background-color: #bdbcba;
+  overflow: hidden;
 }
 
 .ps_plus_content_box{
   width: 100%;
   height:auto;
   color: white;
-  padding: 25px 0;
+  padding: 35px 0;
 }
 
 .ps_plus_content_box img{
-  height: 50px;
+  height: 80px;
+  padding: 5px 0;
 }
 
 .ps_plus_image_box img{
@@ -276,11 +302,48 @@
 
 .ps_plus_content_box p{
   color: black;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  padding: 5px 0;
 }
 
 
 /* /PS Plus Box */
+
+
+/* PS Now Box */
+
+.ps_now_banner{
+  width: 100%;
+  height: auto;
+  background-color: #161c3c;
+}
+
+.ps_now_content_box{
+  width: 100%;
+  height:auto;
+  color: white;
+  padding: 35px 0;
+}
+
+.ps_now_content_box img{
+  height: 80px;
+  padding: 5px 0;
+}
+
+.ps_now_image_box img{
+  width: 100%;
+  height: 100%;
+}
+
+
+.ps_now_content_box p{
+  color: white;
+  font-size: 1.2rem;
+  padding: 5px 0;
+}
+
+
+/* /PS Now Box */
 
 
 /* 
