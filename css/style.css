@@ -177,6 +177,10 @@
     MAIN 
 */
 
+main{
+  overflow: auto;
+}
+
 /* Thumb videogames section */
 
 .thumb_games_top_box{
