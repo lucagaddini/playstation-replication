@@ -23,20 +23,32 @@
 }
 
 .thumb_games_item_box:hover{
-  transition: 2s;
+  transition: linear 2s;
   transform: translateY(-15px);
+}
+
+.accessories_box_item:hover{
+  opacity: 1;
+  transition: linear 2s;
 }
 
 #btn_ps_plus:hover{
   border: 2px solid #f5f5f5;
   box-shadow: #c6c5c5 0px 0px 0px 3px;
   color:#3569e6;
-
 }
 
 #btn_ps_now:hover{
   border: 2px solid #161c3c;
   box-shadow: #f5f5f5 0px 0px 0px 3px;
+}
+
+.navbar_ps li:hover .nav-link{
+  color: #2c64e4 !important
+}
+
+.navbar_ps li:hover .fa-chevron-down path{
+  fill: #2c64e4;
 }
 
 
@@ -45,6 +57,3 @@
   box-shadow: grey 0px 0px 5px 5px;
 }
 
-.accessories_box_item:hover{
-  opacity: 1;
-}
