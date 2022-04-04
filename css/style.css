@@ -58,7 +58,6 @@
   right: 10px;
 }
 
-
 .navbar_ps .fa-chevron-down{
   height: 15px;
 }
@@ -67,23 +66,19 @@
   display: none;
 }
 
-
 .navbar_ps .nav-item.dropdown .chevron_active {
   transform: rotate(180deg);
   display: none;
 }
 
-/* .navbar_ps .nav-item.dropdown:active .chevron_active {
-  display: block;
+.navbar_ps .dropdown, .dropend, .dropstart, .dropup {
+	position:unset !important;
 }
 
-.navbar_ps .nav-item.dropdown:active .chevron_normal {
-  display: none;
-} */
-
 .dropdown_submenu_ps {
-  left:-80px !important;
-  top: 3.5rem !important;
+  position: absolute;
+  left:0 !important;
+  top: 73px !important;
   width: calc(100vw + 3px) !important;
 	color: #212529;
 	text-align: center;
@@ -93,10 +88,6 @@
 	border-radius: 0;
   overflow: hidden;
 }
-
-
-
-
 
 .dropdown_submenu_ps .submenu_item{
   border: 1px solid white
@@ -286,7 +277,6 @@
 /* /Console and Accessories section */
 
 
-
 /* Banner main */
 
 .banner_middle{
@@ -390,9 +380,7 @@
   padding: 5px 0;
 }
 
-
 /* /PS Plus section */
-
 
 /* PS Now section */
 
@@ -429,7 +417,6 @@
 
 /* /PS Now section */
 
-
 /* Social Media section */
 
 .social_box .item_box img{
@@ -438,7 +425,6 @@
 }
 
 /* /Social Media section */
-
 
 /* 
     /MAIN 
