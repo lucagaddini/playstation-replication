@@ -57,7 +57,7 @@
 */
 
 .thumb_games_item_box:hover{
-  transition: ease-in-out 0.4s;
+  transition: all 0.4s ease-in-out;
   transform: translateY(-15px);
 }
 

@@ -35,6 +35,30 @@
 */
 
 
+/* 
+HEADER PORTFOLIO
+*/
+
+.navbar_personal{ 
+  background-color: #1a1919;
+}
+
+.navbar_personal a{
+  text-decoration: none;
+  color: #959595;
+  font-size: 16px;
+}
+
+.navbar_personal a:hover,
+.navbar_personal a:hover .nav-link{
+  color: #3266ff !important;
+}
+
+.portfolio_logo img{
+  width: 40px; 
+}
+
+
 
 /* 
     HEADER 
